@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_LINQ", "Homework_LINQ\Homework_LINQ.csproj", "{EEAC0E01-EBF5-46EC-8F64-A3589184F34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_Delegate_Event", "Homework_Delegate_Event\Homework_Delegate_Event.csproj", "{BD4E80DD-4AF1-4C00-B51E-20007DD25B7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEAC0E01-EBF5-46EC-8F64-A3589184F34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAC0E01-EBF5-46EC-8F64-A3589184F34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAC0E01-EBF5-46EC-8F64-A3589184F34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAC0E01-EBF5-46EC-8F64-A3589184F34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4E80DD-4AF1-4C00-B51E-20007DD25B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4E80DD-4AF1-4C00-B51E-20007DD25B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4E80DD-4AF1-4C00-B51E-20007DD25B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4E80DD-4AF1-4C00-B51E-20007DD25B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C8B020A-8089-400E-9DEB-BCD369A9A1D6}
+	EndGlobalSection
+EndGlobal
