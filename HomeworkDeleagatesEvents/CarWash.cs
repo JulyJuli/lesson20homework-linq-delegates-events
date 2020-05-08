@@ -10,10 +10,13 @@ namespace HomeworkDeleagatesEvents
     {
         public string Name { get; set; }
         public int Price { get; set; }
-        public static List<CarWash> CarWashList { get;private set; } = new List<CarWash>();
+        public static List<CarWash> CarWashList { get; private set; } = new List<CarWash>();
 
         public delegate void Notification(CarWash carWash);
-        public event Notification CarStatusNotification;
+        private delegate void Balance(int sum);
+
+        public event Notification ShowCarStatus;
+        private event Balance BalanceOperations;
 
 
         public CarWash(string name, int price)
@@ -27,21 +30,28 @@ namespace HomeworkDeleagatesEvents
         public void CarProcessing(Car car)
         {
             // Getting car cleaning if its balance is enaugh.
-            if (car.Balance >= this.Price)
+            if (car.Card.Balance >= this.Price)
             {
-                CarStatusNotification += car.SuccesWashHandler;
-                car.Balance -= Price;
+                ShowCarStatus += car.SuccesWashHandler;
+
+                //car.Card.Balance -= Price;
+                BalanceOperations += car.Card.Withdrawal;
             }
 
             // Not eanaugh money - display the failure notification.
             // Try to get another car wash. 
             else
             {
-                CarStatusNotification += car.LowFoundsHandler;
+                ShowCarStatus += car.LowFoundsHandler;
             }
-            CarStatusNotification?.Invoke(this);
-            CarStatusNotification = null;
 
+            // Invoking events.
+            // Preparing events for the next car (null'ing them).
+            BalanceOperations?.Invoke(this.Price);
+            ShowCarStatus?.Invoke(this);
+
+            BalanceOperations = null;
+            ShowCarStatus = null;
         }
     }
 }

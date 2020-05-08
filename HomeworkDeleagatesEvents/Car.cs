@@ -8,20 +8,21 @@ namespace HomeworkDeleagatesEvents
 {
     public class Car
     {
+        private List<CarWash> VisitedWashes { get; set; }
         public int ID { get; set; }
         public string Model { get; set; }
-        public int Balance { get; set; }
         public bool IsDirty { get; set; }
-        private List<CarWash> VisitedWashes { get; set; }
         private CarWash SelectedCarwash { get; set; }
+        public WashingCard Card { get; set; }
+
 
         public Car(int id, string model, int balance, bool isDirty)
         {
             ID = id;
             Model = model;
-            Balance = balance;
             IsDirty = isDirty;
             VisitedWashes = new List<CarWash>();
+            Card = WashingCard.Cards[new Random(ID).Next(0, WashingCard.Cards.Count)];
         }
 
         public void GetCleaning()
@@ -59,19 +60,18 @@ namespace HomeworkDeleagatesEvents
                 }
             }
         }
+
         protected CarWash CarWashSelect()
         {
             Random random = new Random();
             CarWash result = CarWash.CarWashList.Except(VisitedWashes)
-                .ToList()[random.Next(
-                    0, (CarWash.CarWashList.Count - VisitedWashes.Count)
+                .ToList()[random.Next(0, 
+                (CarWash.CarWashList.Count - VisitedWashes.Count)
                 )];
-
 
             VisitedWashes.Add(result);
             return result;
         }
-
 
         public void SuccesWashHandler(CarWash carWash)
         {
