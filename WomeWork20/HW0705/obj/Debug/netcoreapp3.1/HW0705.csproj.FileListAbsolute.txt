@@ -1,0 +1,11 @@
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\bin\Debug\netcoreapp3.1\HW0705.exe
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\bin\Debug\netcoreapp3.1\HW0705.deps.json
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\bin\Debug\netcoreapp3.1\HW0705.runtimeconfig.json
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\bin\Debug\netcoreapp3.1\HW0705.runtimeconfig.dev.json
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\bin\Debug\netcoreapp3.1\HW0705.dll
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\bin\Debug\netcoreapp3.1\HW0705.pdb
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\obj\Debug\netcoreapp3.1\HW0705.csprojAssemblyReference.cache
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\obj\Debug\netcoreapp3.1\HW0705.AssemblyInfoInputs.cache
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\obj\Debug\netcoreapp3.1\HW0705.AssemblyInfo.cs
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\obj\Debug\netcoreapp3.1\HW0705.dll
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW0705\obj\Debug\netcoreapp3.1\HW0705.pdb

@@ -1,0 +1,11 @@
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.csprojAssemblyReference.cache
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.AssemblyInfoInputs.cache
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.AssemblyInfo.cs
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.exe
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.deps.json
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.runtimeconfig.json
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.runtimeconfig.dev.json
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.dll
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.pdb
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.dll
+C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.pdb
