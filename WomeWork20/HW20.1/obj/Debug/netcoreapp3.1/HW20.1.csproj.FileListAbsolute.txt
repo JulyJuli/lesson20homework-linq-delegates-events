@@ -9,3 +9,14 @@ C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.
 C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.pdb
 C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.dll
 C:\Users\e.repin\Desktop\HomeWork_A_LVL\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.pdb
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.exe
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.deps.json
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.runtimeconfig.json
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.runtimeconfig.dev.json
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.dll
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\bin\Debug\netcoreapp3.1\HW20.1.pdb
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.csprojAssemblyReference.cache
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.AssemblyInfoInputs.cache
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.AssemblyInfo.cs
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.dll
+C:\Users\Repin\Desktop\HW20\lesson20homework-linq-delegates-events\WomeWork20\HW20.1\obj\Debug\netcoreapp3.1\HW20.1.pdb

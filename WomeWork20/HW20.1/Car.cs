@@ -1,26 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 
 namespace HW20._1
 {
     public class Car
     {
-        public Car (string carModel, int yearOfCar, WashingCard washingCard, bool stateCar)
+        public Car(string carModel, int yearOfCar, WashingCard washingCard)//, bool stateCar)
         {
+
             CarModel = carModel;
             YearOfCar = yearOfCar;
             WashingCard = washingCard;
-            StateCar = stateCar;            
+            //StateCar = stateCar;            
         }
         public string CarModel { get; set; }
         public int YearOfCar { get; set; }
-        public WashingService WashingService { get; set; }
-        public WashingCard WashingCard { get; set;}
+        public WashingCard WashingCard { get; set; }
 
         [DefaultValue(false)]
-        public bool StateCar { get; set; } = false;
+        public bool StateCar { get; set; } /*= false;*/
 
         //public override string ToString()
         //{
@@ -36,7 +34,8 @@ namespace HW20._1
         }
         public static void InsufficientFunds(Car car)
         {
-            Console.WriteLine($"Sorry there are insufficient funds on your card. Service: {car.WashingService.NameService} is worth {car.WashingService.PriceService}. Lacks: {car.WashingService.PriceService - car.WashingCard.Balance}. The car is not washed {car.CarModel}");
+
+            Console.WriteLine($"Sorry there are insufficient funds on your card. The car is not washed {car.CarModel}");
         }
         public static void NoWashRequired(Car car)
         {
